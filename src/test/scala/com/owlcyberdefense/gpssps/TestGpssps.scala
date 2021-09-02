@@ -1,4 +1,4 @@
-package com.owlcyberdefense.gpssps.gpssps
+package com.owlcyberdefense.gpssps
 
 import org.junit.AfterClass
 import org.junit.Test
@@ -6,7 +6,7 @@ import org.junit.Test
 import org.apache.daffodil.tdml.Runner
 
 object TestGpssps {
-  lazy val runner = Runner("/com/owlcyberdefense/gpssps/gpssps/", "TestGpssps.tdml")
+  lazy val runner = Runner("/com/owlcyberdefense/gpssps/", "TestGpssps.tdml")
 
   @AfterClass def shutDown {
     runner.reset
